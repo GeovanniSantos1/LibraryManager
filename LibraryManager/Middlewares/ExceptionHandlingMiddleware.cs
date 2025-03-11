@@ -1,0 +1,52 @@
+﻿namespace LibraryManager.API.Middlewares
+{
+    public class ExceptionHandlingMiddleware
+    {
+        readonly RequestDelegate _next;
+        readonly ILogger<ExceptionHandlingMiddleware> _logger;
+        readonly IWebHostEnvironment _env;
+
+        public ExceptionHandlingMiddleware(
+            RequestDelegate next,
+            ILogger<ExceptionHandlingMiddleware> logger,
+            IWebHostEnvironment env)
+        {
+            _next = next;
+            _logger = logger;
+            _env = env;
+        }
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            try
+            {
+                await _next(context);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro: {Message}", ex.Message);
+
+                var statusCode = ex switch
+                {
+                    ArgumentNullException => StatusCodes.Status400BadRequest,
+                    KeyNotFoundException => StatusCodes.Status404NotFound,
+                    _ => StatusCodes.Status500InternalServerError
+                };
+
+                context.Response.StatusCode = statusCode;
+                context.Response.ContentType = "application/json";
+
+                var isDevelopment = _env.IsDevelopment();
+
+                var details = isDevelopment ? ex.StackTrace : "";
+
+                var erroResponse = new {
+                    Message = "Unexpected Error.",
+                    Details = details
+                };
+
+                await context.Response.WriteAsJsonAsync(erroResponse);
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Infrastructure.deps.json
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Infrastructure.runtimeconfig.json
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Infrastructure.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Infrastructure.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\bin\Debug\net8.0\LibraryManager.Core.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.AssemblyInfo.cs
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryM.468AC3F0.Up2Date
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\refint\LibraryManager.Infrastructure.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.genruntimeconfig.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\ref\LibraryManager.Infrastructure.dll

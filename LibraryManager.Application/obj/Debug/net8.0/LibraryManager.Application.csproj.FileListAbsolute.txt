@@ -1,0 +1,17 @@
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.csproj.AssemblyReference.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.AssemblyInfoInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.AssemblyInfo.cs
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Application.deps.json
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Application.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Application.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Infrastructure.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Core.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\bin\Debug\net8.0\LibraryManager.Infrastructure.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryM.02A9EA1C.Up2Date
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\refint\LibraryManager.Application.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\LibraryManager.Application.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Application\obj\Debug\net8.0\ref\LibraryManager.Application.dll

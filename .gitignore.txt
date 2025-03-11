@@ -1,0 +1,29 @@
+# Arquivos e pastas específicos do .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Arquivos de configuração local
+appsettings.Development.json
+appsettings.Production.json
+
+# Secrets
+*.pfx
+*.key
+*.crt
+*.pem
+
+# Dependências
+packages/
+node_modules/
+
+# Arquivos temporários
+[Tt]emp/
+[Tt]mp/

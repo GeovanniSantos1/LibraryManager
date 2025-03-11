@@ -1,0 +1,38 @@
+@LibraryManager_HostAddress = http://localhost:5090
+
+### Obter todos os livros
+GET {{LibraryManager_HostAddress}}/api/books
+Accept: application/json
+
+### Obter livro por ID
+GET {{LibraryManager_HostAddress}}/api/books/1
+Accept: application/json
+
+### Criar novo livro
+POST {{LibraryManager_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+    "title": "O Senhor dos Anéis",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9788533613379",
+    "publishYear": 1954,
+    "publisher": "HarperCollins"
+}
+
+### Atualizar livro
+PUT {{LibraryManager_HostAddress}}/api/books/1
+Content-Type: application/json
+
+{
+    "idBook": 1,
+    "title": "O Senhor dos Anéis - A Sociedade do Anel",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9788533613379",
+    "publishYear": 1954,
+    "publisher": "HarperCollins"
+}
+
+### Deletar livro
+DELETE {{LibraryManager_HostAddress}}/api/books/1
+Accept: application/json 

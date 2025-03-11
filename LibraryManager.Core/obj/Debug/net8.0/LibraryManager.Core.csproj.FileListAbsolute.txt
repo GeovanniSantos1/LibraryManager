@@ -1,0 +1,11 @@
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\bin\Debug\net8.0\LibraryManager.Core.deps.json
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\bin\Debug\net8.0\LibraryManager.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\bin\Debug\net8.0\LibraryManager.Core.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.AssemblyInfoInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.AssemblyInfo.cs
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\refint\LibraryManager.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\LibraryManager.Core.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Core\obj\Debug\net8.0\ref\LibraryManager.Core.dll
