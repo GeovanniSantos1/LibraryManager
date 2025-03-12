@@ -2,9 +2,9 @@
 using LibraryManager.Application.Commands.Users.InsertUser;
 using LibraryManager.Core.Entities;
 using LibraryManager.Core.Interfaces;
+using LibraryManager.Infrastructure.Auth;
 using LibraryManager.UnitTests.Fakes;
 using Moq;
-using Xunit;
 
 namespace LibraryManager.UnitTests.Application.Users
 {
@@ -16,7 +16,8 @@ namespace LibraryManager.UnitTests.Application.Users
         public InsertUserHandlerTests()
         {
             _repositoryMock = new Mock<IUserRepository>();
-            _handler = new InsertUserHandler(_repositoryMock.Object);
+            var authServiceMock = new Mock<IAuthService>(); 
+            _handler = new InsertUserHandler(_repositoryMock.Object, authServiceMock.Object);
         }
 
         [Fact]
