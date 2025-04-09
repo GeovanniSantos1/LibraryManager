@@ -1,0 +1,330 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Amazon.Lambda.Core/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.S3Events/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.S3Events.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.S3Events.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.402.35": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.416.5": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.402.35, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/2.5.0": {
+      "sha512": "JrDdnjUPFcZ74VDjVc2kMucyUpjHnN77Al9Owc17DYYFYAVav46fLRl1BlJj0UPhJxTakoB/h1PhU/6J005Qrw==",
+      "type": "package",
+      "path": "amazon.lambda.core/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.core.2.5.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/net6.0/Amazon.Lambda.Core.dll",
+        "lib/net6.0/Amazon.Lambda.Core.xml",
+        "lib/net8.0/Amazon.Lambda.Core.dll",
+        "lib/net8.0/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.S3Events/3.1.0": {
+      "sha512": "dBhPrxs7c5BA97hKxszYEtu7EJh2q8v7v4LYCQ26aXd/+/vzvP3taMa4PY8AizsPGqvp1chdTZWCB8D4KG3iNg==",
+      "type": "package",
+      "path": "amazon.lambda.s3events/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.s3events.3.1.0.nupkg.sha512",
+        "amazon.lambda.s3events.nuspec",
+        "lib/net8.0/Amazon.Lambda.S3Events.dll",
+        "lib/net8.0/Amazon.Lambda.S3Events.xml",
+        "lib/netcoreapp3.1/Amazon.Lambda.S3Events.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.S3Events.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+      "sha512": "iv/cvqFuZ3v3+NFDyof0IJZvU+4kdpzOe3pWSBwp9HB885I+D32WQxuid9V4GnvRynER9XnWMPaDmImX8qH5cA==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.402.35": {
+      "sha512": "9Jby5BBQTzZOqzQiFjJyr3zCe5GVi64U8gxOlPk3vTTuVJqtkisBJ0Jh1RBj2fNqnWmJLfaWSCLvX1L06zwHnQ==",
+      "type": "package",
+      "path": "awssdk.core/3.7.402.35",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.402.35.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.7.416.5": {
+      "sha512": "7ZzkW/x+6vLiGlieypKv1IBGW2LLhn8fJUhQ3E4hLXmddXapXWVhVro/MdfB2tYSGYo/kbDjYIcqN34KJaYdsw==",
+      "type": "package",
+      "path": "awssdk.s3/3.7.416.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.s3.3.7.416.5.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/net8.0/AWSSDK.S3.dll",
+        "lib/net8.0/AWSSDK.S3.pdb",
+        "lib/net8.0/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "SixLabors.ImageSharp/3.1.7": {
+      "sha512": "9fIOOAsyLFid6qKypM2Iy0Z3Q9yoanV8VoYAHtI2sYGMNKzhvRTjgFDHonIiVe+ANtxIxM6SuqUzj0r91nItpA==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.7.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AWSSDK.S3 >= 3.7.416.5",
+      "Amazon.Lambda.Core >= 2.5.0",
+      "Amazon.Lambda.S3Events >= 3.1.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.4.4",
+      "SixLabors.ImageSharp >= 3.1.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManagerImageProcessorS3\\LibraryManagerImageProcessorS3.csproj",
+      "projectName": "LibraryManagerImageProcessorS3",
+      "projectPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManagerImageProcessorS3\\LibraryManagerImageProcessorS3.csproj",
+      "packagesPath": "C:\\Users\\Geovanni Santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManagerImageProcessorS3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Geovanni Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.7.416.5, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
+          "Amazon.Lambda.S3Events": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.4.4, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.1.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

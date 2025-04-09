@@ -2,6 +2,7 @@
 using LibraryManager.Core.Entities;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 
 namespace LibraryManager.Application.Commands.Books.InsertBook
 {
@@ -20,6 +21,10 @@ namespace LibraryManager.Application.Commands.Books.InsertBook
         [Range(1, 9999, ErrorMessage = "O ano de publicação deve ser maior que zero")]
         public int PublicationYear { get; set; }
 
+        [AllowedExtensions(new string[] { ".jpg", ".jpeg", ".png" })]
+        [MaxFileSize(5 * 1024 * 1024)] // 5MB
+        public IFormFile? ImageFile { get; set; }
+
         public Book ToEntity()
         {
             return new Book
@@ -28,7 +33,8 @@ namespace LibraryManager.Application.Commands.Books.InsertBook
                 Author = Author,
                 ISBN = ISBN,
                 PublicationYear = PublicationYear,
-                IsAvailable = true
+                IsAvailable = true,
+                ImageUrl = string.Empty
             };
         }
     }

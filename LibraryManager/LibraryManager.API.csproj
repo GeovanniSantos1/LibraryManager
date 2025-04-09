@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Amazon.Extensions.Configuration.SystemsManager" Version="6.2.2" />
     <PackageReference Include="AspNetCore.RapiDoc" Version="1.0.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.406.7" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.400" />
     <PackageReference Include="IGeekFan.AspNetCore.RapiDoc" Version="0.0.8" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">

@@ -22,6 +22,50 @@
           "LibraryManager.UnitTests.dll": {}
         }
       },
+      "AWSSDK.Core/3.7.402.28": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.28"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.406.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.406.7"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.27": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.27"
+          }
+        }
+      },
       "Azure.Core/1.38.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
@@ -146,6 +190,12 @@
             "assemblyVersion": "8.0.13.0",
             "fileVersion": "8.0.1325.6610"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.0",
+          "System.IO.Pipelines": "9.0.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -333,6 +383,13 @@
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52809"
           }
+        }
+      },
+      "Microsoft.Extensions.Http/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0"
         }
       },
       "Microsoft.Extensions.Logging/9.0.0": {
@@ -830,6 +887,14 @@
           }
         }
       },
+      "RestSharp/112.1.0": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -878,6 +943,38 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SendGrid/9.24.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "starkbank-ecdsa": "1.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.24.3.0",
+            "fileVersion": "9.24.3.0"
+          }
+        }
+      },
+      "SendGrid.Extensions.DependencyInjection/1.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "2.1.0",
+          "SendGrid": "9.24.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "starkbank-ecdsa/1.3.1": {
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1690,6 +1787,10 @@
         }
       },
       "LibraryManager.Core/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "runtime": {
           "LibraryManager.Core.dll": {
             "assemblyVersion": "1.0.0",
@@ -1699,9 +1800,14 @@
       },
       "LibraryManager.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "AWSSDK.S3": "3.7.415.27",
           "LibraryManager.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "RestSharp": "112.1.0",
+          "SendGrid.Extensions.DependencyInjection": "1.0.1"
         },
         "runtime": {
           "LibraryManager.Infrastructure.dll": {
@@ -1717,6 +1823,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3BM6iUBbobtDH1uk3y6Nx2t5ezckOXhspnkcQxy0iyNfeNtTS1AON0WzguOt01G71Sit7joD5UMddAi/Bucsw==",
+      "path": "awssdk.core/3.7.402.28",
+      "hashPath": "awssdk.core.3.7.402.28.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.406.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCpS/ovUfdLmh4YveF+Bh2UmSSPtZBbGHP+7Mt2t0G0KnTA0LFYeS2os1guKhxG2EpqvXOKtWaaUk12NFugCaQ==",
+      "path": "awssdk.dynamodbv2/3.7.406.7",
+      "hashPath": "awssdk.dynamodbv2.3.7.406.7.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4ta6n+QuGKt1RBCIbRU2wohz5DYJ+wRPR9EI7YkzC8eaWSbmMXTNL+s4HpYUsoxM7uyUrYoW0gC52/9KnK7xw==",
+      "path": "awssdk.extensions.netcore.setup/3.7.400",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LhlhZXYe0V4/WzINqM5kC6AwZLy13xP/LLnM+iAG1SAN9XMKgLodWchMA6Mx2R+HB+VT90eUoasLf3f0e2NcMA==",
+      "path": "awssdk.s3/3.7.415.27",
+      "hashPath": "awssdk.s3.3.7.415.27.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
@@ -1801,6 +1935,13 @@
       "sha512": "sha512-EUNaX3F4fALAfvp7wsCqjqziu1lTNwYRFbIcVJEt6vInWxEpscAM/pcG6GBOx3WcmSRdB7sqtKAKSkyY6XhTig==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.13",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1899,6 +2040,13 @@
       "sha512": "sha512-+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vkSkGa1UIZVlAd18oDhrtoawN/q7fDemJcVpT9+28mP7bP0I8zKLSLRwqF++GmPs/7e0Aqlo6jpZm3P7YYS0ag==",
+      "path": "microsoft.extensions.http/2.1.0",
+      "hashPath": "microsoft.extensions.http.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/9.0.0": {
       "type": "package",
@@ -2068,6 +2216,13 @@
       "path": "nuget.frameworks/6.5.0",
       "hashPath": "nuget.frameworks.6.5.0.nupkg.sha512"
     },
+    "RestSharp/112.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "path": "restsharp/112.1.0",
+      "hashPath": "restsharp.112.1.0.nupkg.sha512"
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2179,6 +2334,27 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SendGrid/9.24.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hWi9dT/2geQ2G4EL1DWOBlhRcKFAKcJw0VvhzJ+uPp4akZJuQNwSbUt+OaHnpJNNFF4fSyX2n9kPi/8f5UxY5Q==",
+      "path": "sendgrid/9.24.3",
+      "hashPath": "sendgrid.9.24.3.nupkg.sha512"
+    },
+    "SendGrid.Extensions.DependencyInjection/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M3dHAkRIIDWvGNro5S25xjQ+nvUTomZ5er12TL0Re+G2UwIntMvO2OthECb3SV28AvOtDd4yZERjdHTrJ+gD1w==",
+      "path": "sendgrid.extensions.dependencyinjection/1.0.1",
+      "hashPath": "sendgrid.extensions.dependencyinjection.1.0.1.nupkg.sha512"
+    },
+    "starkbank-ecdsa/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YV20cpN7WgEiaIuIv8ZQPgkDVximP6gHCMCTgy6+IwArDHmuDVQLJ15Qwwmgd5woETnogquD+gu4SXDZW/ffog==",
+      "path": "starkbank-ecdsa/1.3.1",
+      "hashPath": "starkbank-ecdsa.1.3.1.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

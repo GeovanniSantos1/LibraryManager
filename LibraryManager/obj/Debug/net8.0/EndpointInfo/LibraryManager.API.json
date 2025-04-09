@@ -6,6 +6,59 @@
     "version": "v1"
   },
   "paths": {
+    "/api/reviews": {
+      "post": {
+        "tags": [
+          "BookReviews"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateReviewCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateReviewCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateReviewCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/reviews/book/{bookId}": {
+      "get": {
+        "tags": [
+          "BookReviews"
+        ],
+        "parameters": [
+          {
+            "name": "bookId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/books": {
       "get": {
         "tags": [
@@ -151,6 +204,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/books/upload-test": {
+      "post": {
+        "tags": [
+          "Books"
         ],
         "responses": {
           "200": {
@@ -554,6 +619,35 @@
             "nullable": true
           },
           "newPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateReviewCommand": {
+        "required": [
+          "bookId",
+          "rating",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "bookId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "rating": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "comment": {
             "type": "string",
             "nullable": true
           }

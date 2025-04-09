@@ -2,6 +2,70 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AWSSDK.Core/3.7.402.28": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.406.7": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.402.25, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.27": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.402.28, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -193,6 +257,23 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
@@ -2866,6 +2947,10 @@
       "LibraryManager.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.300.27",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/LibraryManager.Core.dll": {}
         },
@@ -2877,6 +2962,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "AWSSDK.S3": "3.7.415.27",
           "LibraryManager.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
@@ -2893,6 +2981,117 @@
     }
   },
   "libraries": {
+    "AWSSDK.Core/3.7.402.28": {
+      "sha512": "s3BM6iUBbobtDH1uk3y6Nx2t5ezckOXhspnkcQxy0iyNfeNtTS1AON0WzguOt01G71Sit7joD5UMddAi/Bucsw==",
+      "type": "package",
+      "path": "awssdk.core/3.7.402.28",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.402.28.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.DynamoDBv2/3.7.406.7": {
+      "sha512": "aCpS/ovUfdLmh4YveF+Bh2UmSSPtZBbGHP+7Mt2t0G0KnTA0LFYeS2os1guKhxG2EpqvXOKtWaaUk12NFugCaQ==",
+      "type": "package",
+      "path": "awssdk.dynamodbv2/3.7.406.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.DynamoDBv2.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.dynamodbv2.3.7.406.7.nupkg.sha512",
+        "awssdk.dynamodbv2.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.DynamoDBv2.dll",
+        "lib/net35/AWSSDK.DynamoDBv2.pdb",
+        "lib/net35/AWSSDK.DynamoDBv2.xml",
+        "lib/net45/AWSSDK.DynamoDBv2.dll",
+        "lib/net45/AWSSDK.DynamoDBv2.pdb",
+        "lib/net45/AWSSDK.DynamoDBv2.xml",
+        "lib/net8.0/AWSSDK.DynamoDBv2.dll",
+        "lib/net8.0/AWSSDK.DynamoDBv2.pdb",
+        "lib/net8.0/AWSSDK.DynamoDBv2.xml",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.pdb",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.xml",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.pdb",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+      "sha512": "i4ta6n+QuGKt1RBCIbRU2wohz5DYJ+wRPR9EI7YkzC8eaWSbmMXTNL+s4HpYUsoxM7uyUrYoW0gC52/9KnK7xw==",
+      "type": "package",
+      "path": "awssdk.extensions.netcore.setup/3.7.400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512",
+        "awssdk.extensions.netcore.setup.nuspec",
+        "images/AWSLogo.png",
+        "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll",
+        "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Extensions.NETCore.Setup.dll",
+        "lib/netcoreapp3.1/AWSSDK.Extensions.NETCore.Setup.pdb",
+        "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll",
+        "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.pdb"
+      ]
+    },
+    "AWSSDK.S3/3.7.415.27": {
+      "sha512": "LhlhZXYe0V4/WzINqM5kC6AwZLy13xP/LLnM+iAG1SAN9XMKgLodWchMA6Mx2R+HB+VT90eUoasLf3f0e2NcMA==",
+      "type": "package",
+      "path": "awssdk.s3/3.7.415.27",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.s3.3.7.415.27.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/net8.0/AWSSDK.S3.dll",
+        "lib/net8.0/AWSSDK.S3.pdb",
+        "lib/net8.0/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Azure.Core/1.38.0": {
       "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
       "type": "package",
@@ -3157,6 +3356,25 @@
         "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {

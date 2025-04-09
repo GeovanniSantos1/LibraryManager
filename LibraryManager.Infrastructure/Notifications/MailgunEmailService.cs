@@ -21,13 +21,13 @@ namespace LibraryManager.Infrastructure.Notifications
 
         public async Task SendAsync(string email, string subject, string message)
         {
-            // Crie as opções do cliente com o autenticador
+            // Crie as opï¿½ï¿½es do cliente com o autenticador
             var options = new RestClientOptions($"https://api.mailgun.net/v3/{_domain}")
             {
                 Authenticator = new HttpBasicAuthenticator("api", _apiKey)
             };
 
-            // Crie o cliente com as opções
+            // Crie o cliente com as opï¿½ï¿½es
             var client = new RestClient(options);
 
             var request = new RestRequest("messages", Method.Post);

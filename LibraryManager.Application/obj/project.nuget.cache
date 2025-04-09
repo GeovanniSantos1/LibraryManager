@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QD80maq4m6s=",
+  "dgSpecHash": "vyeZXnNKe7Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\LibraryManager.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.core\\3.7.402.28\\awssdk.core.3.7.402.28.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.406.7\\awssdk.dynamodbv2.3.7.406.7.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.400\\awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.s3\\3.7.415.27\\awssdk.s3.3.7.415.27.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
@@ -12,6 +16,7 @@
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.13\\microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",

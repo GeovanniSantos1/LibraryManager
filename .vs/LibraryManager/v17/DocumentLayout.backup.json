@@ -3,44 +3,107 @@
   "WorkspaceRootPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\notifications\\mailgunemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\notifications\\mailgunemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAA90672-18BB-4A53-9F2F-031ACA37D6E2}|LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\LibraryManagerImageProcessor.Function.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanagerimageprocessor.function\\src\\librarymanagerimageprocessor.function\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA90672-18BB-4A53-9F2F-031ACA37D6E2}|LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\LibraryManagerImageProcessor.Function.csproj|solutionrelative:librarymanagerimageprocessor.function\\src\\librarymanagerimageprocessor.function\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\services\\s3storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\services\\s3storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\notifications\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\notifications\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\books\\insertbook\\insertbookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\books\\insertbook\\insertbookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\librarymanager.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\librarymanager.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\recoverypassword\\validaterecoverycode\\validaterecoverycodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\recoverypassword\\validaterecoverycode\\validaterecoverycodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Geovanni Santos\\AppData\\Roaming\\Microsoft\\UserSecrets\\60207a67-b9fa-49ea-9e80-545d0b31e3a0\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.core\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|solutionrelative:librarymanager.core\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\books\\insertbook\\insertbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\books\\insertbook\\insertbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\persistence\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\persistence\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72977BB-AFD2-40F0-B943-BC7A9D8231ED}|LibraryManager.UnitTests\\LibraryManager.UnitTests.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.unittests\\application\\books\\insertbookhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72977BB-AFD2-40F0-B943-BC7A9D8231ED}|LibraryManager.UnitTests\\LibraryManager.UnitTests.csproj|solutionrelative:librarymanager.unittests\\application\\books\\insertbookhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|solutionrelative:librarymanager.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.core\\entities\\nosql\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|solutionrelative:librarymanager.core\\entities\\nosql\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.core\\interfaces\\ibookreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82667D8-519F-4FFD-AB11-9E1B6EE0D3CF}|LibraryManager.Core\\LibraryManager.Core.csproj|solutionrelative:librarymanager.core\\interfaces\\ibookreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\persistence\\repositories\\bookreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\persistence\\repositories\\bookreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\services\\bookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\services\\bookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\persistence\\awsconfig\\awsdynamodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\persistence\\awsconfig\\awsdynamodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72977BB-AFD2-40F0-B943-BC7A9D8231ED}|LibraryManager.UnitTests\\LibraryManager.UnitTests.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.unittests\\application\\users\\insertuserhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72977BB-AFD2-40F0-B943-BC7A9D8231ED}|LibraryManager.UnitTests\\LibraryManager.UnitTests.csproj|solutionrelative:librarymanager.unittests\\application\\users\\insertuserhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\notifications\\mailgunemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\notifications\\mailgunemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\recoverypassword\\requestpasswordrecovery\\requestpasswordrecoveryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\recoverypassword\\requestpasswordrecovery\\requestpasswordrecoveryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\recoverypassword\\changepassword\\changepasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\recoverypassword\\changepassword\\changepasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.infrastructure\\notifications\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\notifications\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\recoverypassword\\validaterecoverycode\\validaterecoverycodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\recoverypassword\\validaterecoverycode\\validaterecoverycodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\recoverypassword\\changepassword\\changepasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\recoverypassword\\changepassword\\changepasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\models\\recoverymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +142,6 @@
       "RelativeMoniker": "D:0:0:{29345943-A270-4943-BE3D-1653EB6CED8B}|LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj|solutionrelative:librarymanager.infrastructure\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9FE9083-FBE0-4BBE-BE58-311CBA1A2A84}|LibraryManager\\LibraryManager.API.csproj|solutionrelative:librarymanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|c:\\users\\geovanni santos\\documents\\projetos mentoria\\librarymanager\\librarymanager.application\\commands\\users\\insertuser\\insertuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D274730E-9AE0-4CCB-B374-421AED960EE6}|LibraryManager.Application\\LibraryManager.Application.csproj|solutionrelative:librarymanager.application\\commands\\users\\insertuser\\insertuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -102,7 +161,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 187,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -115,32 +174,227 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Function.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\Function.cs",
+              "RelativeDocumentMoniker": "LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\Function.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\Function.cs",
+              "RelativeToolTip": "LibraryManagerImageProcessor.Function\\src\\LibraryManagerImageProcessor.Function\\Function.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:43:31.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S3StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Services\\S3StorageService.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Services\\S3StorageService.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Services\\S3StorageService.cs",
+              "RelativeToolTip": "LibraryManager.Infrastructure\\Services\\S3StorageService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:50:36.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Interfaces\\IStorageService.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Core\\Interfaces\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Interfaces\\IStorageService.cs",
+              "RelativeToolTip": "LibraryManager.Core\\Interfaces\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:29:14.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsertBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookCommand.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookCommand.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookCommand.cs",
+              "RelativeToolTip": "LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:14:57.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Persistence\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryManager.Infrastructure\\Persistence\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:59:42.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InsertBookHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.UnitTests\\Application\\Books\\InsertBookHandlerTests.cs",
+              "RelativeDocumentMoniker": "LibraryManager.UnitTests\\Application\\Books\\InsertBookHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.UnitTests\\Application\\Books\\InsertBookHandlerTests.cs",
+              "RelativeToolTip": "LibraryManager.UnitTests\\Application\\Books\\InsertBookHandlerTests.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwDsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:53:24.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Core\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Entities\\Book.cs",
+              "RelativeToolTip": "LibraryManager.Core\\Entities\\Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:38:42.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookReview.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Entities\\NoSQL\\BookReview.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Core\\Entities\\NoSQL\\BookReview.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Entities\\NoSQL\\BookReview.cs",
+              "RelativeToolTip": "LibraryManager.Core\\Entities\\NoSQL\\BookReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:39:49.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Services\\BookReviewService.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Application\\Services\\BookReviewService.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Services\\BookReviewService.cs",
+              "RelativeToolTip": "LibraryManager.Application\\Services\\BookReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:01:35.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\Repositories\\BookReviewRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Persistence\\Repositories\\BookReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\Repositories\\BookReviewRepository.cs",
+              "RelativeToolTip": "LibraryManager.Infrastructure\\Persistence\\Repositories\\BookReviewRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:58:14.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Interfaces\\IBookReviewRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Core\\Interfaces\\IBookReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Interfaces\\IBookReviewRepository.cs",
+              "RelativeToolTip": "LibraryManager.Core\\Interfaces\\IBookReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:57:32.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AWSDynamoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\AwsConfig\\AWSDynamoDBSettings.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Persistence\\AwsConfig\\AWSDynamoDBSettings.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\AwsConfig\\AWSDynamoDBSettings.cs",
+              "RelativeToolTip": "LibraryManager.Infrastructure\\Persistence\\AwsConfig\\AWSDynamoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:53:44.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsertBookHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookHandler.cs",
+              "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookHandler.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookHandler.cs",
+              "RelativeToolTip": "LibraryManager.Application\\Commands\\Books\\InsertBook\\InsertBookHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T23:09:47.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryManager.http",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\LibraryManager.http",
+              "RelativeDocumentMoniker": "LibraryManager\\LibraryManager.http",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\LibraryManager.http",
+              "RelativeToolTip": "LibraryManager\\LibraryManager.http",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-21T22:53:38.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\AppData\\Roaming\\Microsoft\\UserSecrets\\60207a67-b9fa-49ea-9e80-545d0b31e3a0\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\60207a67-b9fa-49ea-9e80-545d0b31e3a0\\secrets.json",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\AppData\\Roaming\\Microsoft\\UserSecrets\\60207a67-b9fa-49ea-9e80-545d0b31e3a0\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\60207a67-b9fa-49ea-9e80-545d0b31e3a0\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T22:02:26.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InsertUserHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.UnitTests\\Application\\Users\\InsertUserHandlerTests.cs",
+              "RelativeDocumentMoniker": "LibraryManager.UnitTests\\Application\\Users\\InsertUserHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.UnitTests\\Application\\Users\\InsertUserHandlerTests.cs",
+              "RelativeToolTip": "LibraryManager.UnitTests\\Application\\Users\\InsertUserHandlerTests.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswE8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:16:46.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "MailgunEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Notifications\\MailgunEmailService.cs",
               "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Notifications\\MailgunEmailService.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Notifications\\MailgunEmailService.cs",
               "RelativeToolTip": "LibraryManager.Infrastructure\\Notifications\\MailgunEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T18:54:10.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LibraryManager.http",
-              "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\LibraryManager.http",
-              "RelativeDocumentMoniker": "LibraryManager\\LibraryManager.http",
-              "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\LibraryManager.http",
-              "RelativeToolTip": "LibraryManager\\LibraryManager.http",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAowIEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-11T18:19:03.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "ChangePasswordHandler.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ChangePassword\\ChangePasswordHandler.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ChangePassword\\ChangePasswordHandler.cs",
@@ -153,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "ChangePasswordCommand.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ChangePassword\\ChangePasswordCommand.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ChangePassword\\ChangePasswordCommand.cs",
@@ -166,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
               "Title": "ValidateRecoveryCodeHandler.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ValidateRecoveryCode\\ValidateRecoveryCodeHandler.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ValidateRecoveryCode\\ValidateRecoveryCodeHandler.cs",
@@ -179,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "ValidateRecoveryCodeCommand.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ValidateRecoveryCode\\ValidateRecoveryCodeCommand.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\ValidateRecoveryCode\\ValidateRecoveryCodeCommand.cs",
@@ -192,20 +446,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "RequestPasswordRecoveryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryHandler.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryHandler.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryHandler.cs",
               "RelativeToolTip": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T16:31:57.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "RequestPasswordRecoveryCommand.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryCommand.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\RecoveryPassword\\RequestPasswordRecovery\\RequestPasswordRecoveryCommand.cs",
@@ -218,33 +472,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryManager\\appsettings.json",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\appsettings.json",
               "RelativeToolTip": "LibraryManager\\appsettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAABRwCMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-11T16:17:47.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManager\\Program.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Program.cs",
               "RelativeToolTip": "LibraryManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAASwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T15:48:49.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "RecoveryModels.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Models\\RecoveryModels.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Models\\RecoveryModels.cs",
@@ -257,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "LibraryManager.Core\\Entities\\User.cs",
@@ -270,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Notifications\\IEmailService.cs",
               "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Notifications\\IEmailService.cs",
@@ -283,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Auth\\AuthService.cs",
               "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Auth\\AuthService.cs",
@@ -296,20 +550,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "LibraryManager\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Controllers\\BooksController.cs",
               "RelativeToolTip": "LibraryManager\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T20:57:40.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
@@ -322,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "LibraryManager.Core\\Interfaces\\IUserRepository.cs",
@@ -335,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "LoginHandler.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\Login\\LoginHandler.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\Login\\LoginHandler.cs",
@@ -348,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 36,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\Login\\LoginCommand.cs",
@@ -361,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "InsertUserHandler.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Commands\\Users\\InsertUser\\InsertUserHandler.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Commands\\Users\\InsertUser\\InsertUserHandler.cs",
@@ -374,33 +628,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "LibraryManager\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager\\Controllers\\UsersController.cs",
               "RelativeToolTip": "LibraryManager\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowAkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAwwHwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T19:35:41.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "InfrastructureModule.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\InfrastructureModule.cs",
               "RelativeDocumentMoniker": "LibraryManager.Infrastructure\\InfrastructureModule.cs",
               "ToolTip": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\InfrastructureModule.cs",
               "RelativeToolTip": "LibraryManager.Infrastructure\\InfrastructureModule.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAtwEwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAArwFUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T19:30:21.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 37,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Models\\UserViewModel.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Models\\UserViewModel.cs",
@@ -413,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "LoginModels.cs",
               "DocumentMoniker": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\Models\\LoginModels.cs",
               "RelativeDocumentMoniker": "LibraryManager.Application\\Models\\LoginModels.cs",

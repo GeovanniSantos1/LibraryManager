@@ -43,6 +43,10 @@ namespace LibraryManager.Infrastructure.Persistence.Migrations
                         .HasMaxLength(13)
                         .HasColumnType("nvarchar(13)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsAvailable")
                         .HasColumnType("bit");
 
@@ -51,6 +55,10 @@ namespace LibraryManager.Infrastructure.Persistence.Migrations
 
                     b.Property<int>("PublicationYear")
                         .HasColumnType("int");
+
+                    b.Property<string>("ThumbnailUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()

@@ -9,6 +9,7 @@ C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManag
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.AssemblyInfo.cs
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.sourcelink.json
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryM.468AC3F0.Up2Date
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\LibraryManager.Infrastructure.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.Infrastructure\obj\Debug\net8.0\refint\LibraryManager.Infrastructure.dll

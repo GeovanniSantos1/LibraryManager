@@ -1,9 +1,4 @@
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_LibraryManager.UnitTests
-C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.csproj.AssemblyReference.cache
-C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.AssemblyInfoInputs.cache
-C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.AssemblyInfo.cs
-C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\testhost.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\testhost.exe
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -13,6 +8,10 @@ C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManag
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.UnitTests.runtimeconfig.json
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.UnitTests.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.UnitTests.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\AWSSDK.DynamoDBv2.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\AWSSDK.S3.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\Bogus.dll
@@ -60,6 +59,10 @@ C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManag
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\Moq.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\SendGrid.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\SendGrid.Extensions.DependencyInjection.dll
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\StarkbankEcdsa.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
@@ -162,6 +165,12 @@ C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManag
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.Application.pdb
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.Core.pdb
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\bin\Debug\net8.0\LibraryManager.Infrastructure.pdb
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.csproj.AssemblyReference.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.AssemblyInfoInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.AssemblyInfo.cs
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.sourcelink.json
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryM.3F4262FB.Up2Date
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\LibraryManager.UnitTests.dll
 C:\Users\Geovanni Santos\Documents\Projetos mentoria\LibraryManager\LibraryManager.UnitTests\obj\Debug\net8.0\refint\LibraryManager.UnitTests.dll

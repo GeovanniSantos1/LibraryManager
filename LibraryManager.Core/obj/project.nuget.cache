@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2KXNzGBn84=",
+  "dgSpecHash": "2T6b1VwOnHE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\LibraryManager.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.core\\3.7.300.27\\awssdk.core.3.7.300.27.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.300.27\\awssdk.dynamodbv2.3.7.300.27.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Geovanni Santos\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

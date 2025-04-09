@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "LibraryManager.API/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "Amazon.Extensions.Configuration.SystemsManager": "6.2.2",
           "AspNetCore.RapiDoc": "1.0.0",
           "IGeekFan.AspNetCore.RapiDoc": "0.0.8",
           "LibraryManager.Application": "1.0.0",
@@ -24,6 +27,20 @@
           "LibraryManager.API.dll": {}
         }
       },
+      "Amazon.Extensions.Configuration.SystemsManager/6.2.2": {
+        "dependencies": {
+          "AWSSDK.AppConfigData": "3.7.400.34",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "AWSSDK.SimpleSystemsManagement": "3.7.402.13",
+          "Microsoft.Extensions.Configuration": "2.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Extensions.Configuration.SystemsManager.dll": {
+            "assemblyVersion": "6.2.2.0",
+            "fileVersion": "6.2.2.0"
+          }
+        }
+      },
       "AspNetCore.RapiDoc/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
@@ -32,6 +49,72 @@
           "lib/net5.0/AspNetCore.RapiDoc.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.AppConfigData/3.7.400.34": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.AppConfigData.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.34"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.402.28": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.28"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.406.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.406.7"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.27": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.27"
+          }
+        }
+      },
+      "AWSSDK.SimpleSystemsManagement/3.7.402.13": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SimpleSystemsManagement.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.13"
           }
         }
       },
@@ -147,6 +230,12 @@
             "assemblyVersion": "8.0.13.0",
             "fileVersion": "8.0.1325.6610"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.0",
+          "System.IO.Pipelines": "9.0.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -621,6 +710,11 @@
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52809"
           }
+        }
+      },
+      "Microsoft.Extensions.Configuration/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0"
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
@@ -1377,6 +1471,10 @@
         }
       },
       "LibraryManager.Core/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "runtime": {
           "LibraryManager.Core.dll": {
             "assemblyVersion": "1.0.0",
@@ -1386,6 +1484,9 @@
       },
       "LibraryManager.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "AWSSDK.S3": "3.7.415.27",
           "LibraryManager.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
@@ -1407,12 +1508,61 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Amazon.Extensions.Configuration.SystemsManager/6.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slkCHqKiBFprDCtm7aXE0atSq4PUjkD/cos5Qv2Oxhd2rsOrfTHjWwcgqy/IWZ78V4a9JUtxDPpmJPwrXTl/bg==",
+      "path": "amazon.extensions.configuration.systemsmanager/6.2.2",
+      "hashPath": "amazon.extensions.configuration.systemsmanager.6.2.2.nupkg.sha512"
+    },
     "AspNetCore.RapiDoc/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Q5/iKJ/r5g/15DAwgPkZbLps+it4iqTqsJHlyTGthR4aYNgxF9Wa8w5cl7pvq1OW2WBvRIMTHDVssqumeAhVaA==",
       "path": "aspnetcore.rapidoc/1.0.0",
       "hashPath": "aspnetcore.rapidoc.1.0.0.nupkg.sha512"
+    },
+    "AWSSDK.AppConfigData/3.7.400.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ar8cK9lNa+JuuwwFsKFYULw3af/RFUVe1ECiACC3NaGpGWOXP3KWR+Ec3G1URqWIM96PohdqgLnf4SrAlyjRkg==",
+      "path": "awssdk.appconfigdata/3.7.400.34",
+      "hashPath": "awssdk.appconfigdata.3.7.400.34.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.402.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3BM6iUBbobtDH1uk3y6Nx2t5ezckOXhspnkcQxy0iyNfeNtTS1AON0WzguOt01G71Sit7joD5UMddAi/Bucsw==",
+      "path": "awssdk.core/3.7.402.28",
+      "hashPath": "awssdk.core.3.7.402.28.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.406.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCpS/ovUfdLmh4YveF+Bh2UmSSPtZBbGHP+7Mt2t0G0KnTA0LFYeS2os1guKhxG2EpqvXOKtWaaUk12NFugCaQ==",
+      "path": "awssdk.dynamodbv2/3.7.406.7",
+      "hashPath": "awssdk.dynamodbv2.3.7.406.7.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4ta6n+QuGKt1RBCIbRU2wohz5DYJ+wRPR9EI7YkzC8eaWSbmMXTNL+s4HpYUsoxM7uyUrYoW0gC52/9KnK7xw==",
+      "path": "awssdk.extensions.netcore.setup/3.7.400",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LhlhZXYe0V4/WzINqM5kC6AwZLy13xP/LLnM+iAG1SAN9XMKgLodWchMA6Mx2R+HB+VT90eUoasLf3f0e2NcMA==",
+      "path": "awssdk.s3/3.7.415.27",
+      "hashPath": "awssdk.s3.3.7.415.27.nupkg.sha512"
+    },
+    "AWSSDK.SimpleSystemsManagement/3.7.402.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pWrwXIFvZvyrVZR2EGUBkf07zbnwX0/lcTIcwKF1NoYq3knk0qOLs3ZB6DssOT34FG3bcxn6TAHkXFQoJ6/ezQ==",
+      "path": "awssdk.simplesystemsmanagement/3.7.402.13",
+      "hashPath": "awssdk.simplesystemsmanagement.3.7.402.13.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
@@ -1483,6 +1633,13 @@
       "sha512": "sha512-EUNaX3F4fALAfvp7wsCqjqziu1lTNwYRFbIcVJEt6vInWxEpscAM/pcG6GBOx3WcmSRdB7sqtKAKSkyY6XhTig==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.13",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -1630,6 +1787,13 @@
       "sha512": "sha512-zbnPX/JQ0pETRSUG9fNPBvpIq42Aufvs15gGYyNIMhCun9yhmWihz0WgsI7bSDPjxWTKBf8oX/zv6v2uZ3W9OQ==",
       "path": "microsoft.extensions.caching.memory/9.0.0",
       "hashPath": "microsoft.extensions.caching.memory.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L51zGiDlJ4dPpKhFnP6grn2AQlZix9SvyEJ+HO7j/C2lyGA+cd6aDLqJTUhbXZGZ9zaa11eHvz14zG9HV24DRA==",
+      "path": "microsoft.extensions.configuration/2.0.2",
+      "hashPath": "microsoft.extensions.configuration.2.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
       "type": "package",
