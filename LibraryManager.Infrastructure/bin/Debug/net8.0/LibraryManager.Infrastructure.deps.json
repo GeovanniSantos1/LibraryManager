@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "LibraryManager.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.400",
+          "AWSSDK.S3": "3.7.415.27",
           "LibraryManager.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.13",
           "Microsoft.EntityFrameworkCore.Design": "9.0.0",
@@ -17,6 +20,50 @@
         },
         "runtime": {
           "LibraryManager.Infrastructure.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.28": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.28"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.406.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.406.7"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.27": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.28"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.27"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -71,6 +118,12 @@
             "assemblyVersion": "8.0.13.0",
             "fileVersion": "8.0.1325.6610"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.0",
+          "System.IO.Pipelines": "9.0.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -1412,6 +1465,10 @@
         }
       },
       "LibraryManager.Core/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.406.7",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "runtime": {
           "LibraryManager.Core.dll": {
             "assemblyVersion": "1.0.0",
@@ -1426,6 +1483,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3BM6iUBbobtDH1uk3y6Nx2t5ezckOXhspnkcQxy0iyNfeNtTS1AON0WzguOt01G71Sit7joD5UMddAi/Bucsw==",
+      "path": "awssdk.core/3.7.402.28",
+      "hashPath": "awssdk.core.3.7.402.28.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.406.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCpS/ovUfdLmh4YveF+Bh2UmSSPtZBbGHP+7Mt2t0G0KnTA0LFYeS2os1guKhxG2EpqvXOKtWaaUk12NFugCaQ==",
+      "path": "awssdk.dynamodbv2/3.7.406.7",
+      "hashPath": "awssdk.dynamodbv2.3.7.406.7.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4ta6n+QuGKt1RBCIbRU2wohz5DYJ+wRPR9EI7YkzC8eaWSbmMXTNL+s4HpYUsoxM7uyUrYoW0gC52/9KnK7xw==",
+      "path": "awssdk.extensions.netcore.setup/3.7.400",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LhlhZXYe0V4/WzINqM5kC6AwZLy13xP/LLnM+iAG1SAN9XMKgLodWchMA6Mx2R+HB+VT90eUoasLf3f0e2NcMA==",
+      "path": "awssdk.s3/3.7.415.27",
+      "hashPath": "awssdk.s3.3.7.415.27.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
@@ -1454,6 +1539,13 @@
       "sha512": "sha512-EUNaX3F4fALAfvp7wsCqjqziu1lTNwYRFbIcVJEt6vInWxEpscAM/pcG6GBOx3WcmSRdB7sqtKAKSkyY6XhTig==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.13",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",

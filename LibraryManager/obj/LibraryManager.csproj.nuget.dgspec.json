@@ -56,6 +56,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,6 +131,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.300.27, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -191,15 +207,45 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.406.7, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.400, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.415.27, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -253,9 +299,6 @@
               "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\LibraryManager.Application.csproj": {
                 "projectPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Application\\LibraryManager.Application.csproj"
               },
-              "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\LibraryManager.Core.csproj": {
-                "projectPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Core\\LibraryManager.Core.csproj"
-              },
               "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Geovanni Santos\\Documents\\Projetos mentoria\\LibraryManager\\LibraryManager.Infrastructure\\LibraryManager.Infrastructure.csproj"
               }
@@ -278,23 +321,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.300, )"
+            },
+            "AWSSDK.SimpleSystemsManagement": {
+              "target": "Package",
+              "version": "[3.7.301.11, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "RapiDoc": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[2.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

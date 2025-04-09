@@ -10,4 +10,9 @@
     <Folder Include="Enums\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.300.27" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
 </Project>

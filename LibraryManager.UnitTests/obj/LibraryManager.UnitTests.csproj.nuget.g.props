@@ -23,5 +23,8 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Geovanni Santos\.nuget\packages\xunit.analyzers\1.4.0</Pkgxunit_analyzers>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Geovanni Santos\.nuget\packages\awssdk.core\3.7.402.28</PkgAWSSDK_Core>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">C:\Users\Geovanni Santos\.nuget\packages\awssdk.dynamodbv2\3.7.406.7</PkgAWSSDK_DynamoDBv2>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Geovanni Santos\.nuget\packages\awssdk.s3\3.7.415.27</PkgAWSSDK_S3>
   </PropertyGroup>
 </Project>

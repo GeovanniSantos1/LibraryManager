@@ -1,0 +1,126 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LibraryManagerImageProcessorS3/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.7.416.5",
+          "Amazon.Lambda.Core": "2.5.0",
+          "Amazon.Lambda.S3Events": "3.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.4.4",
+          "SixLabors.ImageSharp": "3.1.7"
+        },
+        "runtime": {
+          "LibraryManagerImageProcessorS3.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.5.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.S3Events/3.1.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.S3Events.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.5.0"
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.402.35": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.35"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.416.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.35"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.416.5"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.7": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryManagerImageProcessorS3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JrDdnjUPFcZ74VDjVc2kMucyUpjHnN77Al9Owc17DYYFYAVav46fLRl1BlJj0UPhJxTakoB/h1PhU/6J005Qrw==",
+      "path": "amazon.lambda.core/2.5.0",
+      "hashPath": "amazon.lambda.core.2.5.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.S3Events/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dBhPrxs7c5BA97hKxszYEtu7EJh2q8v7v4LYCQ26aXd/+/vzvP3taMa4PY8AizsPGqvp1chdTZWCB8D4KG3iNg==",
+      "path": "amazon.lambda.s3events/3.1.0",
+      "hashPath": "amazon.lambda.s3events.3.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iv/cvqFuZ3v3+NFDyof0IJZvU+4kdpzOe3pWSBwp9HB885I+D32WQxuid9V4GnvRynER9XnWMPaDmImX8qH5cA==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.4",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.402.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Jby5BBQTzZOqzQiFjJyr3zCe5GVi64U8gxOlPk3vTTuVJqtkisBJ0Jh1RBj2fNqnWmJLfaWSCLvX1L06zwHnQ==",
+      "path": "awssdk.core/3.7.402.35",
+      "hashPath": "awssdk.core.3.7.402.35.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.416.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ZzkW/x+6vLiGlieypKv1IBGW2LLhn8fJUhQ3E4hLXmddXapXWVhVro/MdfB2tYSGYo/kbDjYIcqN34KJaYdsw==",
+      "path": "awssdk.s3/3.7.416.5",
+      "hashPath": "awssdk.s3.3.7.416.5.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9fIOOAsyLFid6qKypM2Iy0Z3Q9yoanV8VoYAHtI2sYGMNKzhvRTjgFDHonIiVe+ANtxIxM6SuqUzj0r91nItpA==",
+      "path": "sixlabors.imagesharp/3.1.7",
+      "hashPath": "sixlabors.imagesharp.3.1.7.nupkg.sha512"
+    }
+  }
+}

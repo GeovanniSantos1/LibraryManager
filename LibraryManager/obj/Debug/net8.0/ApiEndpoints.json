@@ -34,9 +34,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "LibraryManager.Application.Commands.Books.InsertBook.InsertBookCommand",
-        "IsRequired": true
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Author",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ISBN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PublicationYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -90,6 +110,47 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManager.API.Controllers.BooksController",
+    "Method": "TestUpload",
+    "RelativePath": "api/books/upload-test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -179,6 +240,38 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManager.API.Controllers.BookReviewsController",
+    "Method": "CreateReview",
+    "RelativePath": "api/reviews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManager.Application.Commands.Reviews.CreateReview.CreateReviewCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManager.API.Controllers.BookReviewsController",
+    "Method": "GetByBookId",
+    "RelativePath": "api/reviews/book/{bookId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
